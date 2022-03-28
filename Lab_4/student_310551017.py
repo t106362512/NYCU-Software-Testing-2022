@@ -45,7 +45,7 @@ def find_google_search(driver: WebDriver, student_id: str):
 
     title_we = WebDriverWait(driver, 10).until(
         lambda d: d.find_element(
-            By.XPATH, """/html/body/div[7]/div/div[10]/div/div[2]/div[2]/div/div/div[2]/div/div[1]/div/a/h3"""
+            By.XPATH, """//*[@id="rso"]/div[2]/div/div[1]/div/a/h3"""
         )
     )
 
@@ -56,6 +56,10 @@ def main():
     try:
         option = webdriver.FirefoxOptions()
         option.headless = True
+        option.set_preference(
+            "general.useragent.override",
+            "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36",
+        )
         f_driver = webdriver.Firefox(
             service=Service(GeckoDriverManager().install()), options=option
         )
