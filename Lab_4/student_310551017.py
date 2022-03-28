@@ -54,7 +54,11 @@ def find_google_search(driver: WebDriver, student_id: str):
 
 def main():
     try:
-        f_driver = webdriver.Firefox(service=Service(GeckoDriverManager().install()))
+        option = webdriver.FirefoxOptions()
+        option.headless = True
+        f_driver = webdriver.Firefox(
+            service=Service(GeckoDriverManager().install()), options=option
+        )
         get_nycu_news(f_driver)
         find_google_search(f_driver, STUDENT_ID)
 
