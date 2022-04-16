@@ -24,6 +24,7 @@
         <module>Lab_2</module>
         <module>Lab_3</module>
         <module>Lab_4</module>
+        <module>HW_2</module>
     </modules>
 
     <dependencies>
