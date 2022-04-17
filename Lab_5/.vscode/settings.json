@@ -1,0 +1,19 @@
+{
+    "makefile.makeDirectory": "llvm-lab/distribute/share",
+    "makefile.launchConfigurations": [
+        {
+            "cwd": "/workspaces/NYCU-Software-Testing-2022/Lab_5/llvm-lab/distribute/share",
+            "binaryPath": "/workspaces/NYCU-Software-Testing-2022/Lab_5/llvm-lab/distribute/share/target",
+            "binaryArgs": [],
+            "MIMode": "gdb"
+        },
+        {
+            "cwd": "/workspaces/NYCU-Software-Testing-2022/Lab_5/llvm-lab/distribute/share",
+            "binaryPath": "/workspaces/NYCU-Software-Testing-2022/Lab_5/llvm-lab/distribute/share/target",
+            "binaryArgs": [
+                "arg1",
+            ],
+            "MIMode": "gdb"
+        }
+    ]
+}
