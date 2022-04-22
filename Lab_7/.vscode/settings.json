@@ -1,0 +1,12 @@
+{
+  "makefile.extensionOutputFolder": "./.vscode",
+  "makefile.additionalCompilerNames": ["afl-cc"],
+  "makefile.launchConfigurations": [
+    {
+      "cwd": "/workspaces/NYCU-Software-Testing-2022/Lab_7",
+      "binaryPath": "/workspaces/NYCU-Software-Testing-2022/Lab_7/bmpgrayscale",
+      "binaryArgs": ["test.bmp", "out.bmp"]
+    }
+  ],
+  "conventionalCommits.scopes": ["Lab_7"]
+}
