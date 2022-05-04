@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "lab_8"
+version = "0.1.0"
+description = ""
+authors = ["t106362512 <t106362512@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+angr = "^9.2.2"
+angr-utils = "^0.5.0"
+bingraphvis = "^0.4.0"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
