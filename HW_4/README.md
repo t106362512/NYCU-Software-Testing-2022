@@ -39,3 +39,7 @@ Download and install the Java mutation tool: [muJava](https://cs.gmu.edu/~offutt
     # 執行變異測試, 需於 TestCase Runner 中選擇 Excute all mutants, 然後 Class, Method 和 TestCase 要重選(程式的問題), 最後按 Run 等結果.
     java mujava.gui.RunTestMain
     ```
+
+## Report
+
+- [310551017_HW4.md](310551017_HW4.md)
